@@ -1,10 +1,15 @@
 *{
     margin-top: 0;
 }
+header{
+    display: flex;
+    justify-content: center;
+}
 .header{
-    margin-left: 400px;
-    align-items: center;
-    // margin-top: 500px;
+   
+    text-align: center;
+    
+    
     height: 60px; 
     display: flex;
     align-items: center;
@@ -15,7 +20,7 @@
     color: white;
     text-decoration: none;
     
-    width: 500px;
+    width: 600px;
 
     justify-content: space-around;
 
@@ -27,6 +32,11 @@
     a{
         color: white;
         text-decoration: none;
+        
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
         
     }
 }

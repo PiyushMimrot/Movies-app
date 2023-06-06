@@ -2,6 +2,8 @@
 import Header from './Components/Header';
 import './App.css';
 import './Header.scss';
+import './Login.scss';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Movies from './Components/Movies';
 import Trending from './Components/Trending';
@@ -9,6 +11,7 @@ import Search from './Components/Search';
 import React from 'react';
 import './Movies.css';
 import './Trending.css';
+import Login from './Components/Login';
 
 function App() {
 
@@ -29,6 +32,10 @@ return(
   <Routes>
     <Route exact path='/Search' element = {<React.Fragment>
       <Search/></React.Fragment>}/>
+  </Routes>
+  <Routes>
+    <Route exact path='/login' element = {<React.Fragment>
+      <Login/></React.Fragment>}/>
   </Routes>
 
   </BrowserRouter>

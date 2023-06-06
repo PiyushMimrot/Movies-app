@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ActorResults from "./ActorResults";
 
-export default function Show() {
+export default function Actor() {
   const [state, setState] = useState({
     person: ""
   });
